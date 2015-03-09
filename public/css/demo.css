@@ -136,3 +136,66 @@ a:hover, a:focus {
 .codrops-icon-prev:before {
   content: '\e004';
 }
+
+section {
+  padding: 2em;
+  text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+  clear: both;
+}
+
+section p {
+  font-size: 1.5em;
+  line-height: 1.75;
+}
+
+section > p:first-child {
+  text-align: center;
+}
+
+section.related {
+  text-align: center;
+}
+
+.related p {
+  font-weight: 700;
+}
+
+.related > a {
+  border: 2px solid #faf1e0;
+  color: #faf1e0;
+  display: inline-block;
+  text-align: center;
+  margin: 20px 10px;
+  padding: 20px;
+  -webkit-transition: color .3s, border-color .3s;
+  transition: color .3s, border-color: .3s;
+}
+
+.related a:hover {
+  color: rgba(0, 0, 0, .2);
+  border-color: rgba(0, 0, 0, .2);
+}
+
+.related a img {
+  max-width: 100%;
+  opacity: .8;
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s;
+}
+
+.related a:hover img,
+.realted a:active img {
+  opacity: 1;
+}
+
+.related a h3 {
+  margin: 0;
+  padding: .5em 0 .3em;
+  max-width: 300px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1em;
+  font-family: "Merriweather Sans", sans-serif;
+}
