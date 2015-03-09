@@ -1,0 +1,13 @@
+{
+  "name": "morphing-buttons-replicate",
+  "version": "1.0.0",
+  "description": "Replicating the morphing buttons concept from Codrops using AngularJS",
+  "author": "Kingsten Banh",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.12.0",
+    "express": "^4.12.2",
+    "morgan": "^1.5.1",
+    "path": "^0.11.14"
+  }
+}
