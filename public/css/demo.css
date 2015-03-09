@@ -199,3 +199,8 @@ section.related {
   font-size: 1em;
   font-family: "Merriweather Sans", sans-serif;
 }
+
+/* Demo mockups */
+.mockup-content {
+  text-align: center;
+}
